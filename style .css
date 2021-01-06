@@ -1,0 +1,85 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.focus {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-auto-flow: column;
+}
+.tag {
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: purple;
+    color: white;
+    display: grid;
+    border-radius: 10%;
+    padding-top: 25px;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.greeting {
+    font-size: 2em;
+}
+
+
+.my-name {
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.sidebar {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
